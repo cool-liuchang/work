@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="homework.css">
+	
+</head>
+<body onload="init()">
+
+<div>
+    <br>
+    <p id="p2">2048小游戏</p>
+    <br>
+    <hr>
+    <br>
+    <p id="p5"></p>
+    <p id="p3">Score :6</p>
+    <p id="p4"><input type="button" value="New Game" onclick="init()"></p>
+    <table>
+    <tbody><tr><td id="00" style="background-color: rgb(135, 206, 250);"> </td><td id="01" style="background-color: rgb(135, 206, 250);"> </td><td id="02" style="background-color: rgb(135, 206, 250);"> </td><td id="03" style="background-color: rgb(135, 206, 250);"> </td></tr>
+    <tr><td id="10" style="background-color: rgb(255, 255, 225);">2</td><td id="11" style="background-color: rgb(135, 206, 250);"> </td><td id="12" style="background-color: rgb(135, 206, 250);"> </td><td id="13" style="background-color: rgb(255, 239, 209);">4</td></tr>
+    <tr><td id="20" style="background-color: rgb(135, 206, 250);"> </td><td id="21" style="background-color: rgb(135, 206, 250);"> </td><td id="22" style="background-color: rgb(135, 206, 250);"> </td><td id="23" style="background-color: rgb(135, 206, 250);"> </td></tr>
+    <tr><td id="30" style="background-color: rgb(135, 206, 250);"> </td><td id="31" style="background-color: rgb(135, 206, 250);"> </td><td id="32" style="background-color: rgb(135, 206, 250);"> </td><td id="33" style="background-color: rgb(135, 206, 250);"> </td></tr>
+    </tbody></table>
+    <br>
+    <hr>
+    <p id="p1">游戏规则：开始时棋盘内随机出现两个数字，出现的数字仅可能为2或4
+按键盘 ↑ ↓ ← →对应不同的移动
+玩家选择的方向上若有相同的数字则合并，每次有效移动可以同时合并，但不可以连续合并
+每有效移动一步，棋盘的空位(无数字处)随机出现一个数字(依然可能为2或4) 玩家选择的方向行或列前方有空格则出现位移
+ 记录步骤 并在右侧实时展示，在结束时存入本地，实现排行榜（localstorage）
+棋盘被数字填满，无法进行有效移动，判负，游戏结束 棋盘上出现2048，判胜，游戏结束 .</p>
+    </div>
+
+<script src="homework.js"></script>
+</body>
+</html>

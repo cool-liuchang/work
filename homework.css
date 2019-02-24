@@ -1,0 +1,74 @@
+div{
+margin-top:30px;
+width:1200px;
+margin:0 auto;
+border:2px solid pink;
+border-radius:5px;
+background-image:url(wow.jpg);
+}
+#p2{
+margin:0 auto;
+font-size:40px;
+color:white;
+text-align:center;
+}
+table{
+width:400px;
+height:400px;
+background-color:#FFD5D6;
+border:10px solid #FFFF80;
+text-align:center;
+margin:0 auto;
+border-radius:10%;
+font-size:28px;
+}
+tr,td{
+width:18%;
+height:18%;
+background-color:pink;
+border:1px solid #ddd;
+border-radius:50%;
+}
+#p1{
+margin:0 auto;
+text-align:center;
+padding-bottom:50px;
+}
+body{
+width:100%;
+height:600px;
+}
+#p3{
+width:90%;
+display:inline-block;
+height:40px;
+font-size:22px;
+text-align:center;
+padding-right:40px;
+margin-bottom:5px;
+margin-left: 45px;
+}
+input{
+width:100px;
+height:30px;
+margin-right:80px;
+color:black;
+background-color: pink;
+border:5px solid #87CEFA;
+border-radius: 5px;
+
+
+}
+#p4{
+width:100%;
+text-align:right;
+margin-top:0;
+
+
+}
+#p5{
+color:red;
+width:100%;
+text-align:right;
+margin-top:0;
+}
